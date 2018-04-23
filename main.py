@@ -10,6 +10,7 @@ def calc_point(r, theta, shift):
 
 if __name__ == "__main__":
     unicornhathd.off()
+    unicornhathd.brightness(0.5)
 
     r = 6
     theta = 0
