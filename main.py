@@ -21,8 +21,8 @@ if __name__ == "__main__":
             theta += 5
             x, y = calc_point(r, theta, 8)
             i, j = calc_point(r, theta, 7)
-            unicornhathd.set_pixel(x, y, 100, 250, 0)
-            unicornhathd.set_pixel(i, j, 250, 150, 0)
+            unicornhathd.set_pixel(x, y, 0, 250, 100)
+            unicornhathd.set_pixel(i, j, 0, 150, 250)
 
         unicornhathd.show()
         time.sleep(0.08)
