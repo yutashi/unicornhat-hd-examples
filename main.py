@@ -1,3 +1,4 @@
+import os
 import unicornhathd
 import time
 from math import cos, sin, radians
@@ -9,6 +10,8 @@ def calc_point(r, theta, shift):
     return x, y
 
 if __name__ == "__main__":
+    msg = os.getenv('MESSAGE', None)
+    print('Message: ', msg)
     unicornhathd.off()
     unicornhathd.brightness(0.5)
 
